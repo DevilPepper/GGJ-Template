@@ -4,15 +4,9 @@ This project template follows the tutorials from [GameCI](https://game.ci/docs) 
 
 ## How to use
 
-- Clone this repo and `git reset --hard 0.0.0`.
+- Clone this repo...
 
-> commits after tag `0.0.0` add this readme and a dummy project to have a successful build
-
-- Create Unity project in this directory
-- Change these settings if needed (in Edit -> Project Settings):
-  - Version Control -> Mode: **Visible Meta Files** (Should be default)
-  - Editor -> Asset Serialization -> Mode: **Force Text** (Should be default)
-  - Player -> Resolution and Presentation -> Run In Background: **Checked** (Test step toggles this on for some reason and build step fails if that's a change because the working directory is dirty...)
+> TODO: update steps
 
 ### Activate License
 
