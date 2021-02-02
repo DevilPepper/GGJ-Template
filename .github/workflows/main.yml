@@ -73,7 +73,7 @@ jobs:
     - name: Zip it
       run: |
         # mv build release
-        zip $PROJECT_NAME.zip -r . -x '*.git*'
+        zip "$PROJECT_NAME.zip" -r . -x '*.git*'
 
     - name: Create release with binaries
       run: |
