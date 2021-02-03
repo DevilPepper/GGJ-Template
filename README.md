@@ -3,10 +3,9 @@
 This project template follows the tutorials from [GameCI](https://game.ci/docs) using the simple example (one platform) and a Personal License. The releases are in the format required to make GGJ submissions. Namely, the zip contains:
 
 - Source files moved from _PROJECTNAME/_ to _src/_
-- Build in _release/_
-- Project wiki is cloned to _press/_
+- Build in _release/_ 
+- _press/_ & _other/_ directories
 - **License** is CC0
-- _other/_ is omitted because what else could be important?
 
 ## How to use
 
