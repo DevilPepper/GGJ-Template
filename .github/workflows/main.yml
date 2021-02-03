@@ -57,12 +57,6 @@ jobs:
 
     - name: Checkout
       uses: actions/checkout@v2
-    
-    - name: Clone Wiki
-      uses: actions/checkout@v2
-      with:
-        repository: ${{github.repository}}.wiki
-        path: press
 
     - name: Download build artifacts
       uses: actions/download-artifact@v2
@@ -73,7 +67,7 @@ jobs:
     - name: Zip it
       run: |
         mv $PROJECT_NAME/ src/
-        zip $PROJECT_NAME.zip -r . -x '*.git*' press/Home.md
+        zip $PROJECT_NAME.zip -r . -x '*.git*'
 
     - name: Create release with binaries
       run: |
